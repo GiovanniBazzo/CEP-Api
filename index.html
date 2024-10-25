@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CEP</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Consultor CEP</h1>
+    <div id="blocoA" class="blocoA">
+        <div class="blocoB">
+            <input type="number" class="campo" id="campo">
+                <button class="btn" onclick="pesquisar(), aparecer()">Pesquisar</button>
+        </div>
+        <div id="blocoC" class="blocoC hide">
+            <p class="rua" id="rua">Logradouro: <span></span></p>
+            <p class="bairro" id="bairro">Bairro: <span></span></p>
+            <p class="cidade" id="cidade">Cidade: <span></span></p>
+            <p class="estado" id="estado">Estado: <span></span></p>
+            <p class="ddd" id="numero">DDD: (<span></span>)</p>
+            <p class="regiao" id="regiao">Região: <span></span></p>
+        </div>
+
+    </div>
+    <script src="JavaSrcipt.js"></script>
+</body>
+</html>
